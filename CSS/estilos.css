@@ -1,0 +1,112 @@
+:root {
+    --cor-destaque: #1e90ff; 
+    --cor-texto: white; 
+    --cor-fundo: #333;
+    --fonte-principal: Times New Roman;
+  }
+  
+  body {
+    font-family: var(--fonte-principal);
+    margin: 0;
+    padding: 0;
+    background-color: #1e90ff;
+    color: var(--cor-texto);
+  }
+  .centralizar {
+    text-align: center;
+}
+  
+  header {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 10;
+    font-size: 2.5rem; 
+  }
+  
+  .Meunome {
+    text-decoration: overline;
+    color: #1e90ff;
+  }
+
+  header h3 {
+    margin: 5px 10;
+    font-size: 1.2rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+    color: #fff; 
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px; 
+  }
+  
+  section h1 {
+    color: var(--cor-destaque);
+  }
+  
+  section p {
+    line-height: 1.6; 
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: auto;
+    margin-bottom: 10px;
+    padding: 10px; 
+    font-size: 1rem;
+  }
+  
+  input[type="submit"] {
+    background-color: var(--cor-destaque);
+    color: #fff;
+    border: none;
+    padding: 12px 24px; 
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff6347; 
+  }
+  

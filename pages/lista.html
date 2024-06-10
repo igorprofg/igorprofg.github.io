@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Dados</title>
+    <link href="../CSS/lista.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="cor_do_menu">
+        <ul> 
+            <li><a href="lista.html">Lista de dados</a></li> 
+            <li><a href="api.html">API</a></li>
+            <li><a href="botao.html">Botao </a></li>
+        </ul>
+    </div>
+  </nav>
+    <main>
+        <section id="lista de dados">
+            <header>
+                <h2>Lista de Dados</h2>
+                <a href="#" id="voltar" onclick="voltarPagina()">Voltar</a>
+                <table>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Data de Nascimento</th>
+                        <th></th>
+                    </tr>
+                    <tr id="linha1">
+                        <td>Igor Alessandretti</td>
+                        <td>igoralessandretti345@gmail.com</td>
+                        <td>22/07/2005</td>
+                        <td><button class="delete-button" onclick="esconderLinha('linha1')">Deletar</button></td>
+                    </tr>
+                </table>
+            </header>
+        </section>
+    </main>
+
+
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
